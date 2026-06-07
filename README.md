@@ -62,11 +62,11 @@ pip install -r requirements.txt
 
 Copy `.env.example` to `.env` and fill in:
 ```
-ANTHROPIC_API_KEY=your_key_here
+GROQ_API_KEY=your_key_here
 TAVILY_API_KEY=your_key_here
 ```
 
-You can get an Anthropic key at [console.anthropic.com](https://console.anthropic.com) and a Tavily key at [tavily.com](https://tavily.com) — Tavily has a free tier that's more than enough for testing.
+You can get an Groq key at (https://console.groq.com/home) and a Tavily key at [tavily.com](https://tavily.com) — Tavily has a free tier that's more than enough for testing.
 
 **4. Run it**
 ```bash
@@ -141,7 +141,7 @@ The live app is deployed on **Streamlit Cloud**:
 To deploy your own fork:
 1. Push to GitHub
 2. Go to [share.streamlit.io](https://share.streamlit.io) and connect your repo
-3. Add `ANTHROPIC_API_KEY` and `TAVILY_API_KEY` under **Settings → Secrets**
+3. Add `GROQ_API_KEY` and `TAVILY_API_KEY` under **Settings → Secrets**
 4. Deploy — it takes about 2 minutes
 
 ---
