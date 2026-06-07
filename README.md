@@ -136,11 +136,11 @@ Here's what the app caught on a test document with three intentional errors:
 
 The live app is deployed on **Streamlit Cloud**:
 
-👉 **[https://your-app-name.streamlit.app](https://your-app-name.streamlit.app)**
+👉 **[https://your-app-name.streamlit.app](https://factcheckagent-xzhpyn4ybyfl4axm52gfyv.streamlit.app/)**
 
 To deploy your own fork:
 1. Push to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io) and connect your repo
+2. Go to [share.streamlit.io](https://factcheckagent-xzhpyn4ybyfl4axm52gfyv.streamlit.app/) and connect your repo
 3. Add `GROQ_API_KEY` and `TAVILY_API_KEY` under **Settings → Secrets**
 4. Deploy — it takes about 2 minutes
 
