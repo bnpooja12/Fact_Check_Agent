@@ -1,7 +1,5 @@
 # 📄 Fact Check Agent
 
-> *Upload a PDF. Get the truth.*
-
 I built this because marketing decks are full of lies — not always intentional ones, but stats that were true in 2019, figures someone copy-pasted from a competitor's blog, and numbers that got quietly rounded up until they became fiction. This tool fixes that. You drop in a PDF, it reads every claim, hits the live web to verify each one, and hands you back a clean report with exactly what's wrong and what the real number is.
 
 ---
