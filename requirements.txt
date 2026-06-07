@@ -1,0 +1,6 @@
+streamlit
+groq
+tavily-python
+pymupdf
+pandas
+python-dotenv
