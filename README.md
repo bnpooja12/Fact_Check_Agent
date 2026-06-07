@@ -28,11 +28,10 @@ Every claim comes back labeled:
 factcheck-agent/
 │
 ├── app.py              # Streamlit frontend — PDF upload, results display
-├── extractor.py        # Claim extraction via Claude API
-├── verifier.py         # Per-claim verification with web search
-├── requirements.txt
-├── .env.example
-│
+└── src/
+    ├── extractor.py        # Claim extraction via Claude API
+    ├── verifier.py         # Per-claim verification with web search
+    ├── requirements.txt
 └── utils/
     ├── pdf_reader.py   # Pulls raw text from uploaded PDFs
     └── search.py       # Web search wrapper (Tavily / SerpAPI)
